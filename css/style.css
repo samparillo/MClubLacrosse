@@ -110,6 +110,7 @@ footer{
     grid-template-rows: 40% 10% 40% 10%;
     white-space: normal;
     overflow: hidden;
+    grid-gap: 5px;
 }
 
 .team-history{
