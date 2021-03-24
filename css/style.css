@@ -155,6 +155,10 @@ footer{
 
 }
 
+.gallery img{
+    width: 100%;
+}
+
 #gallery{
     border: 4px solid white;
     padding: 10px;
