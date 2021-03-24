@@ -153,6 +153,7 @@ footer{
     flex-wrap: wrap;
     
     justify-content: space-around;
+    align-self: flex-start;
 
 }
 
