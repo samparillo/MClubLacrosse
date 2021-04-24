@@ -71,6 +71,7 @@ footer{
     color: white;
     padding-top: 5px;
     bottom: 0;
+    position: relative;
     width: 100%;
     text-align: center;
 }
@@ -213,5 +214,39 @@ footer{
 
     .gallery img{
         width: 50%;
+    }
+}
+
+@media screen and (min-width: 1068px){
+    .home {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 71% 29%;
+        
+    }
+
+    .block-m{
+        grid-row: 1;
+        grid-column: 1 / span 2;
+    }
+
+    .intro{
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .links{
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .schedule{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .history{
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
